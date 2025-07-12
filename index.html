@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nobar & PA: The Forge</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1f1f1f;
+      color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #262626;
+      padding: 1.5em;
+      text-align: center;
+      border-bottom: 4px solid #ff6f00;
+    }
+    header h1 {
+      margin: 0;
+      color: #ff6f00;
+    }
+    section {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section-title {
+      color: #ffb300;
+      margin-top: 2em;
+    }
+    .box {
+      background: #2e2e2e;
+      padding: 1em;
+      border-radius: 10px;
+      margin-top: 1em;
+      box-shadow: 0 0 10px #000;
+    }
+    ul {
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+      background-color: #121212;
+      color: #aaa;
+    }
+    form {
+      margin-top: 1em;
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+    input, select, button {
+      padding: 0.6em;
+      border-radius: 5px;
+      border: none;
+      font-size: 1em;
+    }
+    button {
+      background-color: #ff6f00;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e65c00;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nonton Bareng & PA KOMPAREM</h1>
+    <p>Film: <strong>The Forge</strong> | Tema: Tuhan sedang menempa hidupku</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">🛠️ Konsep Ruangan</h2>
+    <div class="box">
+      <ul>
+        <li>🧱 <strong>Nuansa Bengkel Tempa</strong>: lampu temaram, dekor ala industri (besi, kayu, karat).</li>
+        <li>🪑 <strong>Kursi Campuran</strong>: bagian belakang pakai kursi besi/lipat, depan lesehan dengan bean bag & karpet abu/coklat.</li>
+        <li>🔥 <strong>Pencahayaan</strong>: LED merah/kuning & lilin LED di sudut ruangan.</li>
+        <li>🎞️ <strong>Backdrop</strong>: kain hitam dengan tulisan "God is still forging me" atau kutipan Yesaya 64:8.</li>
+        <li>🧭 <strong>Zona Refleksi</strong>: sudut tenang untuk menulis refleksi pribadi.</li>
+      </ul>
+    </div>
+
+    <h2 class="section-title">🪑 Pemesanan Kursi</h2>
+    <div class="box">
+      <form>
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="pilihan">Pilih Area Duduk:</label>
+        <select id="pilihan" name="pilihan">
+          <option value="kursi">Kursi Belakang (besi/lipat)</option>
+          <option value="lesehan">Lesehan Depan (bean bag/karpet)</option>
+        </select>
+
+        <button type="submit">Pesan Kursi</button>
+      </form>
+    </div>
+
+    <h2 class="section-title">🍿 Snack Corner</h2>
+    <div class="box">
+      <ul>
+        <li>Meja kayu/abu-abu tema bengkel.</li>
+        <li>Popcorn, roti bakar, teh manis — dengan label lucu: "Popcorn Panas Iman", "Roti Besi".</li>
+      </ul>
+    </div>
+
+    <h2 class="section-title">📅 Jadwal Acara (Rundown)</h2>
+    <div class="box">
+      <ul>
+        <li>18.30 – Pembukaan & Ice Breaking</li>
+        <li>18.50 – Nonton Bareng: <em>The Forge</em></li>
+        <li>20.20 – Pendalaman Alkitab & Refleksi</li>
+        <li>21.00 – Doa & Penutup</li>
+        <li>21.15 – Snack Time & Ngobrol Santai</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    Website by KOMPAREM Team | GKJ Youth Fellowship 2025
+  </footer>
+</body>
+</html>
